@@ -1,19 +1,12 @@
-import React from 'react'
-import { useParams } from 'react-router';
+import React from "react";
+import CountryDetails from "../../components/countryDetails/countryDetails/CountryDetails";
+const CountryDetailsPage = () => {
 
-function CountryDetailsPage() {
-    let {countryName} = useParams().name;
+  
 
-    console.log(countryName);
-
-
-
-
-
-
-
-
-  return <h1>{countryName}</h1>;
+  return (
+  <CountryDetails></CountryDetails>
+  );
 }
 
 export default CountryDetailsPage

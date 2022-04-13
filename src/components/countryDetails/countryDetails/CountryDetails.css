@@ -1,0 +1,89 @@
+.countryDetailsFlag{
+     width: 100%;
+     height: auto;
+     max-width: 700px;
+     padding-top: 3em;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     padding-left: 5em;
+     padding-right: 5em;
+    
+}
+
+.detailsHeader{
+    text-align: center;
+    margin-top: 0.5em;
+    font-size:3rem;
+}
+
+.detailsCard{
+  box-shadow: 0 0 10px 1px gray;
+  border-radius: 3px;
+  margin: auto;
+  margin-top: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  max-width: 30em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 9em;
+}
+
+.borderCountry{
+     outline-style: solid;
+     outline-width: 1px;
+     border-radius: 1px;
+     margin:auto;
+     margin:1em; 
+     padding: 1px;    
+}
+
+.cardDetailsPopulation{
+    margin-left: 1%;
+
+}
+
+.cardDetailsBorders{
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+.cardDetailsCurrency{
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+.cardDetailsLanguage{
+     margin-top: 1%;
+     margin-left: 1%;
+}
+
+.cardDetailsCapital{
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+.backButton{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top:1em;
+     width:10em;
+     height:2em;
+     background-color:#008CBA;
+     border-radius: 4px;
+     border-style: solid;
+     border-width: 1px;
+}
+
+.backButton:hover{
+    background-color: #87b9ca; /* Green */
+    color: white;
+}
+
+.cardAbout{
+    margin-left: 1%;
+    padding-top: 0.3em;
+}
